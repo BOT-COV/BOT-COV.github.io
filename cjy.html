@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en"> 
+    <head> 
+        <style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    background: url(http://192.168.0.102:8085/1.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content {
+    position: relative;
+    width: 800px;
+    height: 360px;
+    background-color: rgb(52, 0, 73);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.banner-box {
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+    /* background-color: rgb(0, 92, 92); */
+    /*可将下面的url替换为https://pb.nichi.co/brush-lonely-essay 海猫*/
+    /*下面的为坤坤*/
+    background: url('https://pb.nichi.co/decide-kitchen-need') no-repeat;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.login-box {
+    width: 330px;
+    height: 100%;
+    /* background-color: rgb(172, 106, 26); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box>h1 {
+    font-size: 36px;
+    margin: 60px 0;
+    color: #fff;
+}
+
+.login-box>input {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 36px;
+    padding: 0 20px;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.login-btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(122, 0, 223);
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration:underline;
+}
+
+@media screen and (max-width: 900px){
+    .login-content {
+        margin: 0 30px;
+    }
+
+    .banner-box {
+        border-radius: 20px;
+    }
+    
+    .login-box {
+        background-color: rgba(52, 0, 73, 0.5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+    /* 可将下面的url替换为https://pb.nichi.co/brush-lonely-essay 海猫*/
+    /*下面的为坤坤*/
+        background: url('https://pb.nichi.co/decide-kitchen-need') no-repeat center;
+    }
+
+    .login-content {
+        background-color: transparent;
+    }
+
+    .banner-box {
+        display: none;
+    }
+
+    .login-box {
+        position: initial;
+        margin: -40px auto;
+        background-color: transparent;
+    }
+}
+/*背景图片
+.body
+{
+background-image:url('https://pb.nichi.co/achieve-push-jeans');
+}
+*/
+ </style> 
+ <link rel="shortcut icon" href="https://pb.nichi.co/erode-ask-already">
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+        <title>登录</title> 
+        <!--
+        <link rel="stylesheet" href="index.css"> 
+        -->
+    </head> 
+    <body class="body"> 
+        <div class="content"> 
+            <div class="login-content"> <a href="" class="banner-box"></a> 
+                <div class="login-box"> 
+                    <h1>账号登录</h1> 
+                    <input type="text" placeholder="账号"> 
+                    <input type="password" placeholder="密码"> <button class="login-btn" onclick="alert('error-code-127                                                       请使用社交账号登录')">登录</button> 
+                    <!--图标原来的地方-->
+                    <p>使用社交账号</p>
+                    <a href="bilibili://video/BV1GJ411x7h7?h5awaken?"><img src="https://pb.nichi.co/lady-slogan-jeans" width="40" height="30"></a>
+                  
+                </div> 
+            </div> 
+        </div>  
+    </body>
+</html>
